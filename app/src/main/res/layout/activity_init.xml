@@ -1,0 +1,43 @@
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!-- The main content view -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ExpandableListView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/initList"
+            android:dividerHeight="1dp"
+            android:divider="#ff95ae38"
+            android:childDivider="#ff95ae38"
+            />
+
+           <Button
+               android:layout_width="56dp"
+               android:layout_height="56dp"
+               android:text="+"
+               android:textSize="26dp"
+               android:textColor="#FFF"
+               android:background="@drawable/number_of_rows"
+               android:layout_marginRight="16dp"
+               android:layout_alignParentBottom="true"
+               android:layout_alignParentRight="true"
+               android:layout_alignParentEnd="true"
+               android:layout_marginBottom="16dp" />
+    </RelativeLayout>
+
+    <!-- The navigation drawer -->
+    <ListView android:id="@+id/left_drawer"
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:choiceMode="singleChoice"
+        android:divider="@android:color/background_light"
+        android:dividerHeight="1dp"
+        android:background="#ff95ae38"/>
+</android.support.v4.widget.DrawerLayout>

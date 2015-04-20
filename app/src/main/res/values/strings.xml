@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Money Controler</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="options_array">
+        <item>Inicio</item>
+        <item>Registros</item>
+        <item>Categorías</item>
+        <item>Ahorro</item>
+    </string-array>
+
+    <string name="drawer_open">open draw</string>
+    <string name="drawer_close">close draw</string>
+    <string name="title_activity_registros">Registros</string>
+    <string name="title_activity_categorias">Categorias</string>
+    <string name="title_activity_valores_fijos">ValoresFijos</string>
+    <string name="title_activity_ahorro">Ahorro</string>
+</resources>
